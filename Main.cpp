@@ -43,7 +43,7 @@ int main()
   cout<<"The count for this Headline is: "<<sum<<endl; 
   cout<<"Another headline? Enter Y/N "; 
   cin>>again; 
-  if
+  if(again == 'y' || again == 'Y')
   {
   cout<<"Okay, keep working hard. "<<endl; 
   }
